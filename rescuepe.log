@@ -1,0 +1,8 @@
+Macrium Reflect Boot Log
+------------------------
+
+Started 19/10/2018 1:37 PM  v6.3.1849
+
+DrvLoad: Successfully loaded x:\drivers\Network\VEN_8086_DEV_1502\E1C62x64.inf.
+DrvLoad: Successfully loaded x:\drivers\USB\VEN_8086_DEV_1E31\iusb3xhc.inf.
+DrvLoad: Successfully loaded x:\drivers\USB\Intel(R) USB 3.0 Root Hub\iusb3hub.inf.

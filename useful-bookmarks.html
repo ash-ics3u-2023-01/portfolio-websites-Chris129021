@@ -1,0 +1,118 @@
+<html>
+
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Useful-Bookmarks</title>
+      <style>
+          body {
+              font-family: 'Arial', sans-serif;
+              margin: 0;
+              padding: 0;
+              background-color: #f5f5f5;
+          }
+
+          .bookmark-container {
+              max-width: 600px;
+              margin: 20px auto;
+              padding: 20px;
+              background-color: #fff;
+              border-radius: 8px;
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          }
+
+          .bookmark {
+              display: flex;
+              align-items: center;
+              padding: 10px;
+              margin-bottom: 10px;
+              border: 1px solid #ddd;
+              border-radius: 5px;
+              transition: transform 0.3s ease;
+              cursor: pointer;
+          }
+
+          .bookmark:hover {
+              transform: scale(1.05);
+          }
+
+          .bookmark img {
+              width: 40px;
+              height: 40px;
+              margin-right: 10px;
+              border-radius: 5px;
+              object-fit: cover;
+          }
+
+          .bookmark-text {
+              flex: 1;
+              font-size: 16px;
+              color: #333;
+          }
+
+          .bookmark-link {
+              text-decoration: none;
+              color: #3498db;
+              font-weight: bold;
+          }
+
+          .bookmark-link:hover {
+              text-decoration: underline;
+          }
+      </style>
+  </head>
+  <body>
+
+  <div class="bookmark-container">
+      <div class="bookmark" onclick="goToBookmark('https://www.w3schools.com/default.asp')">
+          <img src="w3.jpg">
+          <div class="bookmark-text">
+              <p><span class="https://www.w3schools.com/default.asp">w3Schools</span> - This is a very handy website whenever you need help understanding certain concepts in various types of coding such as python, html, CSS, etc.Click on this box to view website.</p>
+          </div>
+      </div>
+
+      <div class="bookmark" onclick="goToBookmark('https://github.com/')">
+          <img src="github.jpg" alt="Github">
+          <div class="bookmark-text">
+              <p><span class="https://github.com/">Github</span> - This website allows you to code in a open spcae using anytype of code such as Java, python, HTML, and CSS. Click on this box to view website.</p>
+          </div>
+      </div>
+
+      <div class="bookmark" onclick="goToBookmark('https://github.com/')">
+      <img src="New_Replit_Logo.svg.png" alt="Replit">
+      <div class="bookmark-text">
+          <p><span class="https://replit.com/">Replit</span> - This website allows you to code in a open spcae using anytype of code such as Java, python, HTML, and CSS. This website is a lot simpler to use compared to most other general websites were there is space to code. Click on this box to view website.</p>
+      </div>
+     
+
+  </div>
+
+  <script>
+      function goToBookmark(url) {
+          window.location.href = url;
+      }
+  </script>
+
+  </body>
+  </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
